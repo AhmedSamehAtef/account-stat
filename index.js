@@ -26,16 +26,16 @@ client.on('ready', async () => {
     .setApplicationId('1125479277421404310')
     .setType('STREAMING')
     .setURL('https://bit.ly/dsh_official')
-    .setState(' **Second Type** ')
-    .setName(' **Name** ')
-    .setDetails(` **Three Type** `)
+    .setState('KRYPTON-Online')
+    .setName('KRYPTONSRO')
+    .setDetails(`PVP-Server`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage(' **Large Image Link** ') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText(' **Three Type** ') //Text when you hover the Large image
-    .setAssetsSmallImage(' **Small Image Link** ') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText(' **Second Type** ') //Text when you hover the Small image
-    .addButton(' **Name Type** ', ' **Link** ')
-    .addButton(' **Name Type** ', ' **Link** ');
+ .setAssetsLargeImage('https://cdn.discordapp.com/icons/1014983575680077824/c785dbff8bace7a335b3698aee658a35.png') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText('PVP-Server') //Text when you hover the Large image
+    .setAssetsSmallImage('https://cdn.discordapp.com/icons/1014983575680077824/c785dbff8bace7a335b3698aee658a35.png') //You can put links in tenor or discord and etc.
+    .setAssetsSmallText('KRYPTON-ONLINE') //Text when you hover the Small image
+    .addButton('Website', 'https://krypton-sro.online/')
+    .addButton('Facebook', 'https://www.facebook.com/groups/shixro');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "online" }); //dnd, online, idle, offline
@@ -44,7 +44,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = ` **Name** `;
+      const newDetails = `KRYPTON-Online`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
