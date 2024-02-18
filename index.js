@@ -31,7 +31,7 @@ client.on('ready', async () => {
     .setDetails(`PVP-Server`)
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://cdn.discordapp.com/icons/1014983575680077824/c785dbff8bace7a335b3698aee658a35.png') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('PVP-Server') //Text when you hover the Large image
+    .setAssetsLargeText('CAP 130') //Text when you hover the Large image
     .setAssetsSmallImage('https://cdn.discordapp.com/icons/1014983575680077824/c785dbff8bace7a335b3698aee658a35.png') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('KRYPTON-ONLINE') //Text when you hover the Small image
     .addButton('Website', 'https://krypton-sro.online/')
@@ -44,7 +44,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `KRYPTON-Online`;
+      const newDetails = `PVP SYSTEM`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
