@@ -26,14 +26,14 @@ client.on('ready', async () => {
     .setApplicationId('1125479277421404310')
     .setType('STREAMING')
     .setURL('https://bit.ly/dsh_official')
-    .setState('KRYPTON-Online')
-    .setName('KRYPTONSRO')
-    .setDetails(`PVP-Server`)
+    .setState('- CAP 130 - PVP SYSTEM')
+    .setName('♛KRYPTON-ONLINE♛')
+    .setDetails(`- ALCHEMY DISABLE`)
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://cdn.discordapp.com/icons/1014983575680077824/c785dbff8bace7a335b3698aee658a35.png') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('CAP 130') //Text when you hover the Large image
+    .setAssetsLargeText('- ALCHEMY DISABLE') //Text when you hover the Large image
     .setAssetsSmallImage('https://cdn.discordapp.com/icons/1014983575680077824/c785dbff8bace7a335b3698aee658a35.png') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText('KRYPTON-ONLINE') //Text when you hover the Small image
+    .setAssetsSmallText('- CAP 130 - PVP SYSTEM') //Text when you hover the Small image
     .addButton('Website', 'https://krypton-sro.online/')
     .addButton('Facebook', 'https://www.facebook.com/groups/shixro');
 
@@ -44,7 +44,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `PVP SYSTEM`;
+      const newDetails = `♛KRYPTON-ONLINE♛`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
