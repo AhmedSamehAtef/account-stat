@@ -26,7 +26,7 @@ client.on('ready', async () => {
     .setApplicationId('1125479277421404310')
     .setType('STREAMING')
     .setURL('https://bit.ly/dsh_official')
-    .setState('- CAP 130 - PVP SYSTEM')
+    .setState('♛KRYPTON-ONLINE♛')
     .setName('♛KRYPTON-ONLINE♛')
     .setDetails(`- ALCHEMY DISABLE`)
     .setStartTimestamp(Date.now())
